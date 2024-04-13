@@ -1,0 +1,18 @@
+package co.edu.escuelaing.cvds.lab7.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class EmployeeDTO {
+    private String employeeId;
+    private String firstname;
+    private String lastname;
+    private String role;
+    private Double salary;
+}
